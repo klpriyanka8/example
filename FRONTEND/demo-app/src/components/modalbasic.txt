@@ -1,0 +1,23 @@
+import Modal from "react-bootstrap/Modal";
+import "bootstrap/dist/css/bootstrap.min.css";
+const App = () => {
+return (
+        <Modal show={true} size="lg">
+        <Modal.Header>SASTRA</Modal.Header>
+        <Modal.Body>Computing</Modal.Body>
+        <Modal.Footer>SASTRA</Modal.Footer>
+        </Modal>
+);
+};
+
+<button onClick={showModal}>Display Modal</button>
+<Modal show={isOpen} onHide={hideModal}>
+<Modal.Header>
+<Modal.Title>SASTRA</Modal.Title>
+</Modal.Header>
+<Modal.Body>COMPUTING</Modal.Body>
+<Modal.Footer>
+<button onClick={hideModal}>Cancel</button>
+<button>Save</button>
+</Modal.Footer>
+</Modal>
